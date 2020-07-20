@@ -16,7 +16,7 @@ function searchPhotos(event){
 
     if(event.key === 'Enter' && keyword){
         removePhotos();
-        for(let i=1; i<=9; i++){
+        for(let i=1; i<=10; i++){
            appendImageElem(keyword,i);   
         } 
     }
